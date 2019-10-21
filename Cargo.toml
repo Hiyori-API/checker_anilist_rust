@@ -1,0 +1,18 @@
+[package]
+name = "hiyori_checker_anilist"
+version = "0.1.0"
+authors = ["Irfan <irfan.dahir1037@gmail.com>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+reqwest = "0.9.22"
+rustc-serialize = "0.3.24"
+
+
+# [profile.release]
+# opt-level = 'z'  # Optimize for size, not speed
+# lto = true
+# codegen-units = 1
+# panic = 'abort'
